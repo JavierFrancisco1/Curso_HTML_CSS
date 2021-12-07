@@ -10,3 +10,30 @@ img {
 h1 {
   color: navy;
 }
+
+.titulo_Figuras {
+  border: 15px solid;
+  border-color: hsla(271, 100%, 50%, 0.281);
+  text-align: center;
+  border-radius: 20px 0px 20px 0px;
+  color: violet;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aquamarine;
+  margin: 40px;
+}
+
+.figura1 {
+  max-width: 100%;
+  height: auto;
+}
+.figura1 img {
+  width: 90%;
+  padding: 40px 40px 15px 40px;
+}
+
+.figura1 img,
+figcaption {
+  text-align: center;
+  
+}
