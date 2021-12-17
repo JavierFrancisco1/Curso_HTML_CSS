@@ -5,7 +5,8 @@ body {
   font-family: sans-serif;
 }
 
-img {
+img,
+video {
   max-width: 100%;
   height: auto;
 }
@@ -38,4 +39,8 @@ h1 {
 .figura1 img,
 figcaption {
   text-align: center;
+}
+iframe {
+  width: 80%;
+  height: 400px;
 }
