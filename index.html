@@ -438,9 +438,52 @@
         <br>
         <input type="reset">
     </form>
-    <a href="index.html#inicio" >☝️</a>
-    <hr>
+    <h4>Selects,Radios y Controls</h4>
+    <form>
+        <p>Elige tu idioma:</p>
+        <select name="idioma" required>
+            <option value="" selected>Elige una opcion</option>
+            <option value="es" >español</option>
+            <option value="en">ingles</option>
+            <option value="fr">frances</option>
+            <option value="it">italiano</option>
+            <option value="pt">portugues</option>
+        </select>
+        <p>Elige tu lenguaje de programacion favorito:</p>
+        <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+        <label for="radio-js">JavaScript</label>
+        <input type="radio" name="lenguaje" id="radio-py" value="py" checked>
+        <label for="radio-py">Python</label>
+        <input type="radio" name="lenguaje" id="radio-php" value="php">
+        <label for="radio-php">PHP</label>
+        <p>Elige tus intereses</p>
+        <label>
+            <input type="checkbox" name="intereses-deportes" value="deportes">
+            Deportes
+        </label>
+        <label>
+            <input type="checkbox" name="intereses-finanzas" value="finanzas">
+            Finanzas
+        </label>
+        <label>
+            <input type="checkbox" name="intereses-salud" value="salud">
+            Salud
+        </label>
+        <label>
+            <input type="checkbox" name="intereses-politica" value="politica">
+            Politica
+        </label>
+        <label>
+            <input type="checkbox" name="intereses-ecologia" value="ecologia">
+            Ecologia
+        </label>
+        <input type="submit"><input type="reset">
+    </form>
 
+    <a href="index.html#inicio" >☝️</a>
+    
+    <hr>
+   
      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <script src="assets/codigos.js">
