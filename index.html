@@ -477,9 +477,27 @@
             <input type="checkbox" name="intereses-ecologia" value="ecologia">
             Ecologia
         </label>
+        <br>
+        <label>
+            <input type="checkbox" name="terminos y condiciones" required>
+            ¿Aceptas terminos y condiciones?
+        </label>
+        <br><br>
         <input type="submit"><input type="reset">
     </form>
+    <h4>Formulario de Contacto</h4>
+    <form action="https://formsubmit.co/javierfrancisco2212@gmail.com" method="post">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[a-zA-ZÑñáÁéÉíÍóÓúÚÜü\s]+$" title="nombre solo acepta letras y espacios en blanco" autocomplete="off" required>
+        <br>
+        <input type="email" name="correo" placeholder="Escribe tu correo"
+         pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" required title="Formato de correo invalido">
+         <br> <br>
+         <textarea name="comentarios" id="" cols="30" rows="10" required></textarea>
+         <br>
+         <input type="submit">
+    </form>
 
+    <br>
     <a href="index.html#inicio" >☝️</a>
     
     <hr>
